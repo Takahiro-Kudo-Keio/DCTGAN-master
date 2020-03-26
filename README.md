@@ -3,7 +3,7 @@ Code for "GAN-Based Image Deblurring Using DCT discriminator"
 
 Takahiro Kudo, Hiroki Tomosada, Takanori Fujisawa, Masaaki Ikehara
 
-IEEE Access 
+Proceeding for IEEE Access 
 
 ## Overview
 
