@@ -56,7 +56,7 @@ The code used the comparison of PSNR and SSIM in the numerical experiment is bel
 
 ## The pre-trained models
 The experiment models in the paper can be downloaded via the link below:
-<https://drive.google.com/file/d/1EkLJWUjSmbDFuSF5U5jW3hqmLcIehL8j/view?usp=sharing "Models">
+[Models](https://drive.google.com/file/d/1EkLJWUjSmbDFuSF5U5jW3hqmLcIehL8j/view?usp=sharing)
 
 For further information, please contact: {kudo, tomosada, ikehara}@tkhm.elec.keio.ac.jp
 
