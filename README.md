@@ -18,12 +18,17 @@ details of the restored images, and it also suppress ringing artifacts and exces
 
 ## Requirements
 Pytorch(torch and torchvision)
+
 NumPy
+
 OpenCV(cv2)
+
 glob
+
 time
 
-## 
+## The Quatation
+The file "dct.py" is quated by <https://github.com/zh217/torch-dct>
 
 ## Test Datasets
 The GoPro Dataset and Real image dataset can be downloaded via the links below:
