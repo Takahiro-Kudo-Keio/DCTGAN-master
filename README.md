@@ -3,7 +3,7 @@ Code for "GAN-Based Image Deblurring Using DCT discriminator"
 
 Takahiro Kudo, Hiroki Tomosada, Takanori Fujisawa, Masaaki Ikehara
 
-Reviewing for IEEE Access 
+Reviewing for IEEE Access
 
 ## Overview
 
@@ -15,6 +15,15 @@ image obtained by the generator and the real image of the correct answer. Hereby
 block noise or ringing artifacts while keeping the deblurring performance. Both
 numerical and subjective results in the experiments show that DCTGAN is processed while retaining the
 details of the restored images, and it also suppress ringing artifacts and excessive patterns.
+
+## Requirements
+Pytorch(torch and torchvision)
+NumPy
+OpenCV(cv2)
+glob
+time
+
+## 
 
 ## Test Datasets
 The GoPro Dataset and Real image dataset can be downloaded via the links below:
