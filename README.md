@@ -5,16 +5,8 @@ Takahiro Kudo, Hiroki Tomosada, Takanori Fujisawa, Masaaki Ikehara
 
 Reviewing for IEEE Access
 
-## Overview
-
-We propose the single image deblurring method that preserves texture and suppresses ringing artifacts in the restored 
-image, named “DCTGAN.” In the proposed method, we adopt the architecture of GAN because of retaining
-the details in the restored image. Besides, DCT discriminator is introduced to the proposed method. It
-compares only the high frequency components of the image by discrete cosine transform (DCT) for the fake
-image obtained by the generator and the real image of the correct answer. Hereby, DCTGAN may reduce
-block noise or ringing artifacts while keeping the deblurring performance. Both
-numerical and subjective results in the experiments show that DCTGAN is processed while retaining the
-details of the restored images, and it also suppress ringing artifacts and excessive patterns.
+## Abstract
+Image deblurring has been an important issue recently because of the increasing number of imaging devices and the spread of HD displays. Thus, the demand for image blurring with high accuracy has increased in the past several years. Image deblurring has two kinds of problem settings, non-blind or blind, and uniform or non-uniform deblurring. In this paper, the problem setting supposes blind and non-uniform. Recently, Convolutional Neural Network (CNN) and Generative Adversarial Network (GAN) based algorithms have been proposed for image deblurring, such as SRN, DeblurGAN, and DeblurGANv2. These conventional methods exhibit high performance in test images. However, these methods often lose the details of the restored image, and form block noise or ringing artifacts during the deblurring process. To solve these problems, we propose a method that preserves texture and suppresses ringing artifacts in the restored image, named ``DCTGAN.'' In the proposed method, we adopt the architecture of GAN because it can retain the details in the restored image. In addition, the DCT discriminator is introduced to the proposed method. It compares only the high-frequency components of the image by discrete cosine transform (DCT) of the fake image obtained by the generator and ground truth image. Hereby, DCTGAN may reduce block noise or ringing artifacts while maintaining deblurring performance. To evaluate the performance of DCTGAN, test images of GoPro Dataset and Real image dataset are used in the experiments. Both numerical and subjective results in the experiments show that DCTGAN can process while retaining the details of the restored images, and it also suppresses ringing artifacts and excessive patterns.
 
 ## Requirements
 Pytorch(torch and torchvision)
