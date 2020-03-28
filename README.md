@@ -63,5 +63,4 @@ For further information, please contact: {kudo, tomosada, ikehara}@tkhm.elec.kei
 
 ###### References
 ###### [1]Xin Tao, Hongyun Gao, Xiaoyong Shen, Jue Wang, and Jiaya Jia. Scale-recurrent network for deep image deblurring. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 8174–8182, 2018.
-
 ###### [2]Orest Kupyn, Tetiana Martyniuk, Junru Wu, and Zhangyang Wang. Deblurgan-v2: Deblurring (orders-of-magnitude) faster and better. In The IEEE International Conference on Computer Vision (ICCV), Oct 2019.
